@@ -1,0 +1,14 @@
+Resources,Count,Cost
+RDS ,4,"$8,102.78"
+Web Servers,8,"$4,809.35"
+App Servers,8,"$4,809.35"
+NAT Gateway,1,$150.30
+ALB,2,$161.62
+S3,1,$28.36
+CloudFront,1,$110.42
+Elastic IPs,16,$61.02
+,,
+Total Cost,,"$18,233.20"
+,,
+"With the increasing of budget, which means our loads are going up. So we need to aut scale out our servers to handle higher load. Also we need more read replicas to handle multiple reads in multi-AZ. ",,
+"Alternatively, we can also scale up the size of servers to increase the budget",,

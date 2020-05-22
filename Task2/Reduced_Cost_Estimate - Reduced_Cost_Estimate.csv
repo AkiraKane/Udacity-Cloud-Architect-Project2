@@ -1,0 +1,14 @@
+Resources,Count,Cost
+RDS,2,"$2,001.56"
+Web Servers,2,"$1,248.12"
+App Servers,2,"$1,248.12"
+NAT Gateway,1,$36.10
+ALB,2,$37.48
+S3,1,$20.12
+CloudFront,1,$90.54
+Elastic IPs,4,$14.10
+,,
+Total Cost,,"$4,696.14"
+,,
+It seems that we can change autoscaling to the minimum of 1 server for each subnet to reduce the multi-AZ redundancy. We will remove read replica from RDS to handle lower loads.,,
+"Alternatively, we can also scale down the size of servers to reduce the budget",,

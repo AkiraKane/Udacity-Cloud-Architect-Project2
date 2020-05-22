@@ -1,0 +1,11 @@
+Resources,Count,Cost
+RDS ,2,"$3,941.41"
+Web Servers,4,"$2,348.00"
+App Servers,4,"$2,348.00"
+NAT Gateway,1,$77.40
+ALB,2,$79.57
+S3,1,$23.55
+CloudFront,1,$102.31
+Elastic IPs,8,$29.20
+,,
+Total Cost,,"$8,949.44"
